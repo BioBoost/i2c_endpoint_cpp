@@ -8,7 +8,7 @@ namespace BBT {
 
     public:
       I2cEndPoint(unsigned int address, std::string filename);
-      ~I2cEndPoint(void);
+      virtual ~I2cEndPoint(void);
 
     public:
       bool write(char * buffer, int length);
