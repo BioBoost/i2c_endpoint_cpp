@@ -1,7 +1,7 @@
 # Current version
 NAME=i2cendpoint
 VERSION=1.0.0
-INCLUDEDIR=i2cendpoint
+INCLUDEDIR=i2c_endpoint
 EXAMPLEDIR=examples
 
 # The compiler to use
